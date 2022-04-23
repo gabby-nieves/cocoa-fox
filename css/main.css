@@ -1,0 +1,633 @@
+html {
+	scroll-behavior: smooth;
+}
+
+.nav-desktop {
+	display: flex;
+	flex-direction: column;
+	float: left;
+	margin-left: 3rem;
+	margin-top: 1.6rem;
+}
+
+body {
+	font-family:'hoss-round', sans-serif;
+	color: #FFCAD4;
+	overflow-x: hidden;
+}
+
+.logofooter {
+	width: 160px;
+	display: block;
+	margin: auto;
+	padding-top: .6rem;
+	position: relative;
+}
+
+.logofooter:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.logo {
+	width: 55%;
+	max-width:350px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.logo:hover {
+	transform: scale(1.1);
+}
+
+.Hamburger {
+	width: 100%;
+}
+
+.Hamburger:hover {
+	transform: scale(1.3);
+}
+
+
+.headnav {
+	display: flex;
+	gap: 2rem;
+}
+
+header {
+	background-color:#8A6269;
+	padding: 1rem;
+	/*margin-bottom: -4rem;*/
+
+}
+
+header a {
+	color: #FFCAD4;
+	
+}
+
+.bigsquiggle {
+	top: 100px;
+	margin-top: -2rem;
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+}
+
+.squigfoot {
+	margin-bottom: -5rem;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	transform: scaleY(1.0);
+
+}
+
+main {
+	background-color: white;
+	padding: 2rem;
+	color: #8A6269;
+	margin-bottom: 3rem;
+
+}
+
+.main-content {
+	font-size: 17px;
+	text-align: center;
+}
+
+.text {
+	font-size: 15px;
+}
+
+.learnlink {
+	font-size: 15px;
+}
+
+h1 {
+	font-size 40px;
+	font-family: 'forte', sans-serif;
+	font-weight: 10;
+	text-align: center;
+	background-color: white;
+	padding-bottom: 1rem;
+}
+
+.main-content a:hover {
+	font-weight: bolder;
+}
+
+.side-content a:hover {
+	font-weight: bolder;
+}
+
+.bags {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.side-content {
+	display:flex;
+	flex-direction:column;
+}
+
+.minisquiggle {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	padding-bottom: 3rem;
+	padding-top: 3rem;
+}
+
+.container  {
+	position: relative;
+	text-align: center;
+	color: #8A6269;
+}
+
+h2 {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 24px;
+	font-weight: 500;
+	font-family: 'forte', sans-serif;
+}
+
+.h2a {
+	font-size: 30px;
+	transform: translate(-50%, -80%);
+}
+
+.dine {
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+	width: 80%;
+}
+
+.add-on {
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 2rem;
+	padding-top: 2rem;
+	width: 80%;
+}
+
+a {
+	color: #F4ACB7;
+	font-size: 25px;
+	text-decoration: underline;
+	text-align: center;
+	padding: 3px;
+}
+
+.scroll-container {
+	display: flex;
+	flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2rem;
+}
+
+.fa-solid {
+	font-size: 4rem;
+	color: #8A6269;
+}
+
+.fa-solid:hover {
+	transform: scale(1.2);
+}
+
+.scroll {
+	text-align: center;
+	margin-top: -.5rem;
+}
+
+footer {
+	background-color: #8A6269;
+	padding: 2rem;
+	font-size: 10px;
+	display: flex;
+	justify-content: space-between;
+	/*gap: 9.5rem;*/
+	margin-bottom: -10rem;
+}
+
+footer a {
+	color: #FFCAD4;
+	font-size: 10px;
+}
+
+.fa-brands {
+	font-size: 1.5rem;
+	position: relative;
+}
+
+.CR {
+	font-size: 10px;
+}
+
+.head {
+	padding: 0;
+	margin-right: auto;
+	margin-left: auto;
+	list-style: none;
+}
+
+.foot {
+	padding-left: 0;
+	margin: 0;
+	list-style: none;
+}
+
+footer nav li {
+	margin-right: 1px;
+}
+
+li {
+	display: inline-block;
+	margin-right: 1rem;
+}
+
+nav {
+	margin-left: auto;
+}
+
+.chocolate {
+	margin-left: 2.5rem;
+	margin-right: auto;
+	width: 80%;
+	max-width: 500px;
+}
+
+.hours1 {
+	display: flex;
+	gap: 5rem;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.hours2 {
+	display: flex;
+	gap: 5rem;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.h-hours1 {
+	display: flex;
+	gap: 5rem;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.h-hours2 {
+	display: flex;
+	gap: 5rem;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.s1,
+.s2,
+.s3 {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+/*	margin-left: auto;
+	margin-right: auto;*/
+	border-radius: 30px;
+	width: 70%;
+	font-size: 15px;
+}
+
+.hero {
+	width: 100%;
+	/*border-radius: 30px;*/
+	/*margin-top: 3rem;*/
+}
+
+.hero-container {
+	position: relative;
+	text-align: center;
+	color: white;
+	margin: -2rem;
+	padding-top: 4rem;
+}
+
+.hero-text {
+	font-size: 150%;
+	position: absolute;
+	top: 35%;
+	bottom: auto;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+
+.hero-button {
+	position: aboslute;
+	transform: translate(0%, -300%);
+	border-radius: 50px;
+	padding: 15px;
+	border-color: white;
+	cursor: pointer;
+	background-color: transparent;
+	border-style: solid;
+	color: white;
+}
+
+.hero-button:hover {
+	font-weight: bolder;
+}
+
+.container-home1,
+.container-home2 {
+	position: relative;
+	text-align: center;
+}
+
+.hours-home,
+.services-home {
+	font-family: "forte", sans-serif;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 20px;
+
+}
+
+.vl-home {
+	margin-left: 42%;
+
+}
+
+.serv {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+
+/* overlay stuff */
+
+header nav {
+  position: absolute;
+  float: left;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 27vh;
+  display: flex;
+  background-color: #8A6269;
+  /* Needed for animation/transition */
+  transform: translateX(0);
+  transition: all .4s;
+
+}
+
+header nav ul {
+  margin: auto;
+  padding-bottom: 1rem;
+  list-style: none;
+  text-align: center;
+  font-family: "hoss-round", sans-serif;
+}
+
+header nav li:hover {
+	transform: scale(1.1);
+}
+
+.nav-desktop a:hover {
+	font-weight: bolder;
+}
+
+.foxy-about {
+	display: block;
+	margin-left: 15.2rem;
+	margin-right: auto;
+	position: relative;
+	top: 4.5rem;
+	width: 30px;
+}
+
+.foxy-about-d {
+	display: block;
+	margin-left: 0;
+	position: relative;
+	top: 8.8rem;
+	width: 30px;
+}
+
+.foxy-about-s {
+	display: block;
+	margin-left: 0;
+	position: relative;
+	top: 6.3rem;
+	width: 30px;
+}
+
+.foxy-about-h {
+	display: block;
+	margin-left: 0;
+	position: relative;
+	top: 3.6rem;
+	width: 30px;
+}
+
+
+.foxy-service {
+	display: block;
+	margin-left: 8.3rem;
+	margin-right: auto;
+	position: relative;
+	top: 4.5rem;
+	width: 30px;
+}
+
+.foxy-home {
+	display: block;
+	margin-left: 1.4rem;
+	margin-right: auto;
+	position: relative;
+	top: 4.5rem;
+	width: 30px;
+}
+
+.menu-open,
+.menu-close {
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+  position: absolute;
+  right: 2.5rem;
+  top: 3.75rem;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.menu-close:hover {
+	transform: scale(1.3);
+}
+
+.hide {
+  transform: translateX(100%);
+}
+
+/* media index */
+
+@media screen and (min-width:50em){
+
+  .text {
+	font-size: 20px;
+}
+
+.learnlink {
+	font-size: 20px;
+}
+
+  .index-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+  .s1-container,
+  .s2-container,
+  .s3-container, {
+  	display: flex;
+  	flex-direction: column;
+  }
+
+  .hours-home {
+  	font-size: 35px;
+  }
+
+  .services-home {
+  	font-size: 28px;
+  }
+
+  .dine-container {
+  	display: flex;
+  	flex-direction: row;
+  	justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: left;
+
+  }
+
+  .add-on-container {
+  	display: flex;
+  	flex-direction: row;
+  	justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: left;
+  }
+
+  .img2 {
+  	order: 2;
+  }
+
+  .img1,
+  .img2,
+  .img3 {
+  	width: 20%;
+  }
+
+  .other-services {
+		display: flex;
+  	flex-direction: row;
+  	justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: left;
+	}
+
+	.dine,
+	.add-on {
+		width: 30%;
+	}
+
+  .minisquiggle {
+  	width: 60%;
+
+  }
+
+  .hero-text {
+  	font-size: 35px;
+  	top: 30%;
+  }
+
+  .bags {
+  	width: 90%;
+  }
+
+  .about-text {
+  	font-size: 25px;
+  }
+
+  .chocolate {
+  	width"
+  }
+
+}
+
+@media screen and (min-width:52em){
+
+.text1,
+.text2,
+.text3 {
+	font-size: 18px;
+}
+
+}
+
+@media screen and (min-width:52em){
+
+  .Hamburger {
+  	display: none;
+  }
+
+  .logo {
+  	margin-right: auto;
+  	margin-left: 35%;
+  }
+
+}
+
+@media screen and (max-width: 52em){
+	.nav-desktop {
+		display: none;
+	}
+
+	.foxy-about-d {
+		display: none;
+	}
+
+	.foxy-about-s {
+		display: none;
+	}
+
+	.foxy-about-h {
+		display: none;
+	}
+}
